@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: black;
+  border:1px solid grey;
+  color: grey;
+}
+.PathOfBuilding {
+  flex-direction: column;
+}
+.main {
+  flex-direction: row;
+
+  /*flex-wrap: nowrap;*/
+}
+.PathOfBuilding .main {
+  display: flex;
+}
+.PathOfBuilding .header,
+.PathOfBuilding .footer {
+  padding:1em
+}
+
+ .menu
+{
+  background: #C9E1F4;
+  padding: 1em;
+  /*flex-grow: 1;*/
+}
+.dataView {
+  background: black;
+    flex-grow: 1;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
