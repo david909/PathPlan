@@ -20,7 +20,7 @@ export class ImageManager extends React.Component {
       image2.src = image3;
     }
 
-    console.log("Image2 - " + JSON.stringify(image2));
+    // console.log("Image2 - " + JSON.stringify(image2));
 
     return image2;
     // return "skill_sprite-active-3-7798fabab8a21829831293c20ac9c414.jpg";  //TODO give this based on active/inactive
